@@ -1,0 +1,21 @@
+{
+  "ticker": "ORCL",
+  "company_name": "Oracle Corporation",
+  "ats_platform": "taleo",
+  "careers_url": "https://www.oracle.com/careers/",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [
+    {
+      "id": "taleo-legacy-ui",
+      "description": "Oracle uses Taleo (which they own). Legacy UI with iframe-heavy architecture.",
+      "workaround": "Navigate carefully through iframes. Use frame-aware selectors.",
+      "severity": "warning"
+    }
+  ],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "Oracle uses Taleo (their own ATS product). Detailed playbook pending verification."
+}

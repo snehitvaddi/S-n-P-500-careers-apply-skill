@@ -1,0 +1,14 @@
+{
+  "ticker": "CSCO",
+  "company_name": "Cisco Systems, Inc.",
+  "ats_platform": "custom",
+  "careers_url": "https://jobs.cisco.com/",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "Cisco uses a custom ATS. Detailed playbook pending verification."
+}

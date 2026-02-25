@@ -1,0 +1,14 @@
+{
+  "ticker": "NOW",
+  "company_name": "ServiceNow, Inc.",
+  "ats_platform": "custom",
+  "careers_url": "https://www.servicenow.com/careers.html",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "ServiceNow uses a custom ATS. Detailed playbook pending verification."
+}

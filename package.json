@@ -1,0 +1,43 @@
+{
+  "name": "sp500-careers",
+  "version": "1.0.0",
+  "description": "AI Agent Guide to S&P 500 Tech Career Pages — structured database + navigation playbooks for autonomous job application",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "seed": "tsx src/seed.ts",
+    "verify": "tsx src/verify-careers.ts",
+    "detect": "tsx src/detect-ats.ts",
+    "diff": "tsx src/diff-constituents.ts",
+    "index": "tsx src/build-ats-index.ts",
+    "report": "tsx src/generate-report.ts",
+    "export": "tsx src/export.ts",
+    "cron": "tsx src/cron.ts",
+    "validate": "tsx src/validate-playbooks.ts",
+    "llm-data": "tsx src/build-llm-dataset.ts",
+    "directory:mz": "tsx src/generate-directory-mz.ts"
+  },
+  "keywords": [
+    "sp500",
+    "careers",
+    "ats",
+    "greenhouse",
+    "lever",
+    "workday",
+    "ashby",
+    "job-application",
+    "ai-agent",
+    "automation"
+  ],
+  "author": "Snehit Vaddi <vaddisnehit@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.58.2",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

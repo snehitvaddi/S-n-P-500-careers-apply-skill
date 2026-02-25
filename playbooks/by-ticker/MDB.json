@@ -1,0 +1,143 @@
+{
+  "ticker": "MDB",
+  "company_name": "MongoDB, Inc.",
+  "ats_platform": "greenhouse",
+  "careers_url": "https://www.mongodb.com/company/careers",
+  "application_url": "https://boards.greenhouse.io/mongodb/jobs/{job_id}",
+  "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs",
+  "search_filters": [
+    {
+      "name": "Department",
+      "type": "url_param",
+      "url_param": "department",
+      "options": []
+    },
+    {
+      "name": "Location",
+      "type": "url_param",
+      "url_param": "location",
+      "options": []
+    }
+  ],
+  "application_flow": [
+    {
+      "step": 1,
+      "action": "Navigate to job posting page",
+      "selector": "a[href*='boards.greenhouse.io/mongodb/jobs']",
+      "field_type": "text",
+      "value_key": "job_url",
+      "notes": "Click 'Apply' on MongoDB careers page to reach Greenhouse form",
+      "required": true
+    },
+    {
+      "step": 2,
+      "action": "Fill first name",
+      "selector": "#first_name",
+      "field_type": "text",
+      "value_key": "first_name",
+      "notes": "Standard text input",
+      "required": true
+    },
+    {
+      "step": 3,
+      "action": "Fill last name",
+      "selector": "#last_name",
+      "field_type": "text",
+      "value_key": "last_name",
+      "notes": "Standard text input",
+      "required": true
+    },
+    {
+      "step": 4,
+      "action": "Fill email",
+      "selector": "#email",
+      "field_type": "email",
+      "value_key": "email",
+      "notes": "Standard email input",
+      "required": true
+    },
+    {
+      "step": 5,
+      "action": "Fill phone",
+      "selector": "#phone",
+      "field_type": "tel",
+      "value_key": "phone",
+      "notes": "Standard phone input",
+      "required": true
+    },
+    {
+      "step": 6,
+      "action": "Upload resume",
+      "selector": "input[type='file'][data-field='resume']",
+      "field_type": "file",
+      "value_key": "resume_path",
+      "notes": "Hidden file input triggered by 'Attach' button.",
+      "required": true
+    },
+    {
+      "step": 7,
+      "action": "Fill LinkedIn URL",
+      "selector": "input[name*='linkedin']",
+      "field_type": "url",
+      "value_key": "linkedin_url",
+      "notes": "LinkedIn profile URL field",
+      "required": false
+    },
+    {
+      "step": 8,
+      "action": "Select work authorization via ARIA combobox",
+      "selector": "[role='combobox'][aria-label*='authorized']",
+      "field_type": "combobox",
+      "value_key": "work_authorization",
+      "notes": "ARIA combobox: click -> snapshot -> click option.",
+      "required": true
+    },
+    {
+      "step": 9,
+      "action": "Select sponsorship requirement via ARIA combobox",
+      "selector": "[role='combobox'][aria-label*='sponsorship']",
+      "field_type": "combobox",
+      "value_key": "needs_sponsorship",
+      "notes": "ARIA combobox: click -> snapshot -> click option.",
+      "required": true
+    },
+    {
+      "step": 10,
+      "action": "Submit application",
+      "selector": "input[type='submit'], button[type='submit']",
+      "field_type": "text",
+      "value_key": "",
+      "notes": "Invisible reCAPTCHA Enterprise triggers on submit.",
+      "required": true
+    }
+  ],
+  "quirks": [
+    {
+      "id": "gh-aria-combobox",
+      "description": "Greenhouse uses ARIA combobox widgets for dropdowns.",
+      "workaround": "Use click-snapshot-click pattern.",
+      "severity": "warning"
+    },
+    {
+      "id": "gh-recaptcha-enterprise",
+      "description": "Invisible reCAPTCHA Enterprise on submit.",
+      "workaround": "Human-in-the-loop fallback for CAPTCHA challenges.",
+      "severity": "blocker"
+    },
+    {
+      "id": "gh-file-upload-hidden",
+      "description": "Hidden file input for resume upload.",
+      "workaround": "Use setInputFiles() on hidden input or click Attach button.",
+      "severity": "warning"
+    },
+    {
+      "id": "gh-api-available",
+      "description": "Greenhouse public API available.",
+      "workaround": "GET https://boards-api.greenhouse.io/v1/boards/mongodb/jobs",
+      "severity": "info"
+    }
+  ],
+  "verified": true,
+  "last_verified": "2026-02-25",
+  "notes": "MongoDB uses Greenhouse for applications."
+}

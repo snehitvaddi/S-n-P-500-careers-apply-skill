@@ -1,0 +1,152 @@
+{
+  "ticker": "DDOG",
+  "company_name": "Datadog, Inc.",
+  "ats_platform": "greenhouse",
+  "careers_url": "https://careers.datadoghq.com/",
+  "application_url": "https://boards.greenhouse.io/datadog/jobs/{job_id}",
+  "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs",
+  "search_filters": [
+    {
+      "name": "Department",
+      "type": "url_param",
+      "url_param": "gh_src",
+      "options": []
+    },
+    {
+      "name": "Location",
+      "type": "url_param",
+      "url_param": "location",
+      "options": []
+    }
+  ],
+  "application_flow": [
+    {
+      "step": 1,
+      "action": "Navigate to job posting page",
+      "selector": "a[href*='boards.greenhouse.io/datadog/jobs']",
+      "field_type": "text",
+      "value_key": "job_url",
+      "notes": "Click 'Apply for this job' button on job listing page",
+      "required": true
+    },
+    {
+      "step": 2,
+      "action": "Fill first name",
+      "selector": "#first_name",
+      "field_type": "text",
+      "value_key": "first_name",
+      "notes": "Standard text input for first name",
+      "required": true
+    },
+    {
+      "step": 3,
+      "action": "Fill last name",
+      "selector": "#last_name",
+      "field_type": "text",
+      "value_key": "last_name",
+      "notes": "Standard text input for last name",
+      "required": true
+    },
+    {
+      "step": 4,
+      "action": "Fill email",
+      "selector": "#email",
+      "field_type": "email",
+      "value_key": "email",
+      "notes": "Standard email input",
+      "required": true
+    },
+    {
+      "step": 5,
+      "action": "Fill phone",
+      "selector": "#phone",
+      "field_type": "tel",
+      "value_key": "phone",
+      "notes": "Standard phone input",
+      "required": true
+    },
+    {
+      "step": 6,
+      "action": "Upload resume",
+      "selector": "input[type='file'][data-field='resume']",
+      "field_type": "file",
+      "value_key": "resume_path",
+      "notes": "Hidden file input triggered by 'Attach' button. Click the Attach button first, then set file on the hidden input.",
+      "required": true
+    },
+    {
+      "step": 7,
+      "action": "Fill LinkedIn URL",
+      "selector": "input[name*='linkedin']",
+      "field_type": "url",
+      "value_key": "linkedin_url",
+      "notes": "LinkedIn profile URL field",
+      "required": false
+    },
+    {
+      "step": 8,
+      "action": "Fill current company",
+      "selector": "input[name*='company']",
+      "field_type": "text",
+      "value_key": "current_company",
+      "notes": "Current employer text field",
+      "required": false
+    },
+    {
+      "step": 9,
+      "action": "Select work authorization via ARIA combobox",
+      "selector": "[role='combobox'][aria-label*='authorized']",
+      "field_type": "combobox",
+      "value_key": "work_authorization",
+      "notes": "ARIA combobox widget: click to open -> take snapshot -> click matching option. Do NOT use keyboard selection.",
+      "required": true
+    },
+    {
+      "step": 10,
+      "action": "Select sponsorship requirement via ARIA combobox",
+      "selector": "[role='combobox'][aria-label*='sponsorship']",
+      "field_type": "combobox",
+      "value_key": "needs_sponsorship",
+      "notes": "ARIA combobox widget: click to open -> take snapshot -> click matching option.",
+      "required": true
+    },
+    {
+      "step": 11,
+      "action": "Submit application",
+      "selector": "input[type='submit'], button[type='submit']",
+      "field_type": "text",
+      "value_key": "",
+      "notes": "Invisible reCAPTCHA Enterprise triggers on submit. May require human-in-the-loop if CAPTCHA challenge appears.",
+      "required": true
+    }
+  ],
+  "quirks": [
+    {
+      "id": "gh-aria-combobox",
+      "description": "Greenhouse uses ARIA combobox widgets for dropdowns. These are NOT standard <select> elements.",
+      "workaround": "Use click-snapshot-click pattern: 1) Click the combobox to open, 2) Take a page snapshot to find options, 3) Click the matching option element.",
+      "severity": "warning"
+    },
+    {
+      "id": "gh-recaptcha-enterprise",
+      "description": "Form has invisible reCAPTCHA Enterprise that triggers on submit. Cannot be bypassed programmatically.",
+      "workaround": "Prepare a human-in-the-loop fallback. If reCAPTCHA challenge appears, pause and notify user to solve it manually.",
+      "severity": "blocker"
+    },
+    {
+      "id": "gh-file-upload-hidden",
+      "description": "Resume upload uses a hidden file input that is triggered by an 'Attach' button overlay.",
+      "workaround": "Locate the hidden <input type='file'> near the Attach button and use setInputFiles() directly, or click the Attach button and handle the file dialog.",
+      "severity": "warning"
+    },
+    {
+      "id": "gh-api-available",
+      "description": "Greenhouse provides a public API for job listings at boards-api.greenhouse.io.",
+      "workaround": "Use GET https://boards-api.greenhouse.io/v1/boards/datadog/jobs to fetch all jobs. Supports ?content=true for full descriptions.",
+      "severity": "info"
+    }
+  ],
+  "verified": true,
+  "last_verified": "2026-02-25",
+  "notes": "Datadog uses standard Greenhouse application flow. API is publicly accessible for job scraping."
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "TXN",
+  "company_name": "Texas Instruments Incorporated",
+  "ats_platform": "custom",
+  "careers_url": "https://careers.ti.com/",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "Texas Instruments uses a custom ATS. Detailed playbook pending verification."
+}

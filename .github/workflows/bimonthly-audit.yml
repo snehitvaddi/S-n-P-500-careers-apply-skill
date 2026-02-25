@@ -1,0 +1,31 @@
+name: Bimonthly Career Page Audit
+
+on:
+  schedule:
+    - cron: '0 6 1,15 * *'  # 1st and 15th of every month at 6AM UTC
+  workflow_dispatch:  # Manual trigger from Actions tab
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - run: npm ci
+
+      - name: Run full audit pipeline
+        run: npm run cron
+
+      - name: Commit changes
+        run: |
+          git config user.name "sp500-careers-bot"
+          git config user.email "bot@sp500-careers.dev"
+          git add -A
+          git diff --staged --quiet || git commit -m "chore: bimonthly audit $(date +%Y-%m-%d)"
+          git push

@@ -1,0 +1,125 @@
+{
+  "ticker": "ADSK",
+  "company_name": "Autodesk, Inc.",
+  "ats_platform": "workday",
+  "careers_url": "https://autodesk.wd1.myworkdayjobs.com/",
+  "application_url": "https://autodesk.wd1.myworkdayjobs.com/Ext/job/{job_id}/apply",
+  "api_endpoint": null,
+  "search_filters": [
+    {
+      "name": "Location",
+      "type": "dropdown",
+      "selector": "[data-automation-id='locationSearchInput']",
+      "options": []
+    },
+    {
+      "name": "Job Category",
+      "type": "dropdown",
+      "selector": "[data-automation-id='jobFamilyGroupSearchInput']",
+      "options": []
+    }
+  ],
+  "application_flow": [
+    {
+      "step": 1,
+      "action": "Click Apply button on job listing",
+      "selector": "[data-automation-id='jobApplyButton']",
+      "field_type": "text",
+      "value_key": "",
+      "notes": "Redirects to Workday login/account creation",
+      "required": true
+    },
+    {
+      "step": 2,
+      "action": "Create account or sign in",
+      "selector": "[data-automation-id='signInLink'], [data-automation-id='createAccountLink']",
+      "field_type": "text",
+      "value_key": "",
+      "notes": "Workday requires account creation.",
+      "required": true
+    },
+    {
+      "step": 3,
+      "action": "Upload resume (Step 1 of wizard)",
+      "selector": "[data-automation-id='resumeUploadInput'], input[type='file']",
+      "field_type": "file",
+      "value_key": "resume_path",
+      "notes": "Resume auto-parse fills subsequent fields.",
+      "required": true
+    },
+    {
+      "step": 4,
+      "action": "Review personal information (Step 2)",
+      "selector": "[data-automation-id='firstName'], [data-automation-id='lastName']",
+      "field_type": "text",
+      "value_key": "personal_info",
+      "notes": "Verify auto-filled fields from resume parse.",
+      "required": true
+    },
+    {
+      "step": 5,
+      "action": "Fill work experience (Step 3)",
+      "selector": "[data-automation-id='workExperienceSection']",
+      "field_type": "text",
+      "value_key": "work_experience",
+      "notes": "May be pre-filled from resume parse.",
+      "required": true
+    },
+    {
+      "step": 6,
+      "action": "Fill education (Step 4)",
+      "selector": "[data-automation-id='educationSection']",
+      "field_type": "text",
+      "value_key": "education",
+      "notes": "May be pre-filled from resume parse.",
+      "required": true
+    },
+    {
+      "step": 7,
+      "action": "Answer application questions (Step 5)",
+      "selector": "[data-automation-id='questionnaireSection']",
+      "field_type": "text",
+      "value_key": "questionnaire",
+      "notes": "Company-specific questions.",
+      "required": true
+    },
+    {
+      "step": 8,
+      "action": "Review and submit (Step 6)",
+      "selector": "[data-automation-id='submitButton']",
+      "field_type": "text",
+      "value_key": "",
+      "notes": "Review and submit.",
+      "required": true
+    }
+  ],
+  "quirks": [
+    {
+      "id": "wd-account-required",
+      "description": "Workday requires account creation before applying.",
+      "workaround": "Pre-create account or use Apply with LinkedIn.",
+      "severity": "warning"
+    },
+    {
+      "id": "wd-wizard-flow",
+      "description": "6-7 step wizard flow.",
+      "workaround": "Navigate steps sequentially using data-automation-id selectors.",
+      "severity": "info"
+    },
+    {
+      "id": "wd-resume-autoparse",
+      "description": "Resume auto-parse may produce inaccurate data.",
+      "workaround": "Verify all auto-filled fields after upload.",
+      "severity": "warning"
+    },
+    {
+      "id": "wd-data-automation-selectors",
+      "description": "Use data-automation-id attributes as stable selectors.",
+      "workaround": "Prefer [data-automation-id='...'] over CSS classes.",
+      "severity": "info"
+    }
+  ],
+  "verified": true,
+  "last_verified": "2026-02-25",
+  "notes": "Autodesk uses Workday (wd1 instance)."
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "CRWD",
+  "company_name": "CrowdStrike Holdings, Inc.",
+  "ats_platform": "custom",
+  "careers_url": "https://www.crowdstrike.com/careers/",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "CrowdStrike uses a custom ATS. Detailed playbook pending verification."
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "id": "greenhouse",
+    "name": "Greenhouse",
+    "url_template": "https://boards.greenhouse.io/{slug}",
+    "api_available": true,
+    "api_template": "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs",
+    "detection_patterns": {
+      "url": [
+        "boards.greenhouse.io",
+        "job-boards.greenhouse.io",
+        "boards-api.greenhouse.io"
+      ],
+      "dom": [
+        "meta[content*='greenhouse']",
+        "link[href*='greenhouse']",
+        "script[src*='greenhouse']",
+        "#greenhouse_application",
+        "iframe[src*='greenhouse']"
+      ]
+    },
+    "difficulty": "easy",
+    "notes": "Most automation-friendly ATS. Public JSON API. ARIA combobox widgets require click-snapshot-click pattern. Invisible reCAPTCHA Enterprise on submit."
+  },
+  {
+    "id": "lever",
+    "name": "Lever",
+    "url_template": "https://jobs.lever.co/{slug}",
+    "api_available": false,
+    "detection_patterns": {
+      "url": [
+        "jobs.lever.co",
+        "lever.co"
+      ],
+      "dom": [
+        "meta[property='og:url'][content*='lever.co']",
+        "link[href*='lever.co']",
+        ".posting-page-header"
+      ]
+    },
+    "difficulty": "easy",
+    "notes": "Simplest ATS for automation. Single-page forms, no comboboxes, full name is one field. Many companies migrating away from Lever."
+  },
+  {
+    "id": "workday",
+    "name": "Workday",
+    "url_template": "https://{slug}.wd{n}.myworkdayjobs.com",
+    "api_available": false,
+    "detection_patterns": {
+      "url": [
+        "myworkdayjobs.com",
+        "myworkday.com",
+        "wd1.myworkdayjobs.com",
+        "wd2.myworkdayjobs.com",
+        "wd3.myworkdayjobs.com",
+        "wd5.myworkdayjobs.com"
+      ],
+      "dom": [
+        "[data-automation-id]",
+        "script[src*='workday']",
+        ".css-1ew7gxs"
+      ]
+    },
+    "difficulty": "hard",
+    "notes": "Multi-step wizard (6-7 pages). Requires account creation. Dynamic element IDs — use data-automation-id selectors. Resume auto-parse. Session timeouts."
+  },
+  {
+    "id": "ashby",
+    "name": "Ashby",
+    "url_template": "https://jobs.ashbyhq.com/{slug}",
+    "api_available": false,
+    "detection_patterns": {
+      "url": [
+        "jobs.ashbyhq.com",
+        "ashbyhq.com"
+      ],
+      "dom": [
+        "meta[content*='ashby']",
+        "link[href*='ashbyhq']",
+        "#_systemfield_resume"
+      ]
+    },
+    "difficulty": "easy",
+    "notes": "Growing rapidly among startups. Clean React forms. Resume upload via #_systemfield_resume. Location combobox needs Enter to commit."
+  },
+  {
+    "id": "smartrecruiters",
+    "name": "SmartRecruiters",
+    "url_template": "https://jobs.smartrecruiters.com/{slug}",
+    "api_available": false,
+    "detection_patterns": {
+      "url": [
+        "jobs.smartrecruiters.com",
+        "smartrecruiters.com"
+      ],
+      "dom": [
+        "meta[content*='smartrecruiters']",
+        "link[href*='smartrecruiters']"
+      ]
+    },
+    "difficulty": "moderate",
+    "notes": "Has one-click apply form URL pattern that bypasses maintenance pages. Requires email confirmation field (type email twice). City uses autocomplete combobox."
+  },
+  {
+    "id": "icims",
+    "name": "iCIMS",
+    "url_template": "https://{slug}.icims.com",
+    "api_available": false,
+    "detection_patterns": {
+      "url": [
+        "icims.com",
+        ".icims.com"
+      ],
+      "dom": [
+        "iframe[src*='icims']",
+        "script[src*='icims']",
+        "meta[content*='iCIMS']"
+      ]
+    },
+    "difficulty": "hard",
+    "notes": "Iframe-heavy, older UI. Dynamic field IDs. May require account creation. Forms often embedded in iframes requiring context switch."
+  },
+  {
+    "id": "taleo",
+    "name": "Oracle Taleo",
+    "url_template": "https://{slug}.taleo.net",
+    "api_available": false,
+    "detection_patterns": {
+      "url": [
+        "taleo.net",
+        ".taleo.net"
+      ],
+      "dom": [
+        "meta[content*='taleo']",
+        "script[src*='taleo']",
+        "#requisitionListInterface"
+      ]
+    },
+    "difficulty": "hard",
+    "notes": "Legacy Oracle ATS. Complex multi-page forms. Requires account creation. Being replaced by Oracle HCM / Workday at many companies."
+  },
+  {
+    "id": "successfactors",
+    "name": "SAP SuccessFactors",
+    "url_template": "https://{slug}.successfactors.com",
+    "api_available": false,
+    "detection_patterns": {
+      "url": [
+        "successfactors.com",
+        ".successfactors.com",
+        "jobs.sap.com"
+      ],
+      "dom": [
+        "meta[content*='successfactors']",
+        "script[src*='successfactors']"
+      ]
+    },
+    "difficulty": "hard",
+    "notes": "SAP's ATS. Complex multi-step process. Often requires SAP account. Used primarily by SAP itself and some enterprise customers."
+  },
+  {
+    "id": "custom",
+    "name": "Custom / Proprietary",
+    "url_template": "",
+    "api_available": false,
+    "detection_patterns": {
+      "url": [],
+      "dom": []
+    },
+    "difficulty": "hard",
+    "notes": "Company-built career portal. No standard patterns. Requires per-company investigation. Common at large tech companies (Google, Amazon, Meta)."
+  }
+]

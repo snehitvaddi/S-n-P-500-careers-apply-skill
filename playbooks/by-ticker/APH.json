@@ -1,0 +1,14 @@
+{
+  "ticker": "APH",
+  "company_name": "Amphenol Corporation",
+  "ats_platform": "custom",
+  "careers_url": "https://www.amphenol.com/careers",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "Amphenol uses a custom ATS. Detailed playbook pending verification."
+}

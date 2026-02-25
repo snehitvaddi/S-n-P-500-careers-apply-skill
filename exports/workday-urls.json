@@ -1,0 +1,160 @@
+{
+  "platform": "workday",
+  "companies": [
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "slug": "adobe",
+      "careers_url": "https://adobe.wd5.myworkdayjobs.com/",
+      "workday_instance": "wd5"
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk, Inc.",
+      "slug": "autodesk",
+      "careers_url": "https://autodesk.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "ANSS",
+      "name": "ANSYS, Inc.",
+      "slug": "ansys",
+      "careers_url": "https://ansys.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "slug": "broadcom",
+      "careers_url": "https://broadcom.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar, Inc.",
+      "slug": "firstsolar",
+      "careers_url": "https://firstsolar.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning Incorporated",
+      "slug": "corning",
+      "careers_url": "https://corning.wd5.myworkdayjobs.com/",
+      "workday_instance": "wd5"
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "slug": "hp",
+      "careers_url": "https://hp.wd5.myworkdayjobs.com/",
+      "workday_instance": "wd5"
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies, Inc.",
+      "slug": "keysight",
+      "careers_url": "https://keysight.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "slug": "kla",
+      "careers_url": "https://kla.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation",
+      "slug": "lamresearch",
+      "careers_url": "https://lamresearch.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology, Inc.",
+      "slug": "marvell",
+      "careers_url": "https://marvell.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "MSI",
+      "name": "Motorola Solutions, Inc.",
+      "slug": "motorolasolutions",
+      "careers_url": "https://motorolasolutions.wd5.myworkdayjobs.com/",
+      "workday_instance": "wd5"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "slug": "micron",
+      "careers_url": "https://micron.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "slug": "nvidia",
+      "careers_url": "https://nvidia.wd5.myworkdayjobs.com/",
+      "workday_instance": "wd5"
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP Semiconductors N.V.",
+      "slug": "nxp",
+      "careers_url": "https://nxp.wd3.myworkdayjobs.com/",
+      "workday_instance": "wd3"
+    },
+    {
+      "ticker": "ON",
+      "name": "onsemi",
+      "slug": "onsemi",
+      "careers_url": "https://onsemi.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm Incorporated",
+      "slug": "qualcomm",
+      "careers_url": "https://qualcomm.wd5.myworkdayjobs.com/",
+      "workday_instance": "wd5"
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology Holdings plc",
+      "slug": "seagate",
+      "careers_url": "https://seagate.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "TEL",
+      "name": "TE Connectivity Ltd.",
+      "slug": "te",
+      "careers_url": "https://te.wd3.myworkdayjobs.com/",
+      "workday_instance": "wd3"
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne, Inc.",
+      "slug": "teradyne",
+      "careers_url": "https://teradyne.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital Corporation",
+      "slug": "westerndigital",
+      "careers_url": "https://westerndigital.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    },
+    {
+      "ticker": "ZBRA",
+      "name": "Zebra Technologies Corporation",
+      "slug": "zebra",
+      "careers_url": "https://zebra.wd1.myworkdayjobs.com/",
+      "workday_instance": "wd1"
+    }
+  ],
+  "generated": "2026-02-25"
+}

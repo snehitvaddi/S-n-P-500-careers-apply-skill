@@ -1,0 +1,28 @@
+{
+  "ticker": "FSLR",
+  "company_name": "First Solar, Inc.",
+  "ats_platform": "workday",
+  "careers_url": "https://firstsolar.wd1.myworkdayjobs.com/",
+  "application_url": "https://firstsolar.wd1.myworkdayjobs.com/External/job/{job_id}/apply",
+  "api_endpoint": null,
+  "search_filters": [
+    { "name": "Location", "type": "dropdown", "selector": "[data-automation-id='locationSearchInput']", "options": [] }
+  ],
+  "application_flow": [
+    { "step": 1, "action": "Click Apply button", "selector": "[data-automation-id='jobApplyButton']", "field_type": "text", "value_key": "", "notes": "Redirects to Workday login", "required": true },
+    { "step": 2, "action": "Create account or sign in", "selector": "[data-automation-id='createAccountLink']", "field_type": "text", "value_key": "", "notes": "Account required.", "required": true },
+    { "step": 3, "action": "Upload resume", "selector": "[data-automation-id='resumeUploadInput']", "field_type": "file", "value_key": "resume_path", "notes": "Resume auto-parse.", "required": true },
+    { "step": 4, "action": "Review personal information", "selector": "[data-automation-id='firstName']", "field_type": "text", "value_key": "personal_info", "notes": "Verify auto-filled fields.", "required": true },
+    { "step": 5, "action": "Fill work experience and education", "selector": "[data-automation-id='workExperienceSection']", "field_type": "text", "value_key": "work_experience", "notes": "Work and education.", "required": true },
+    { "step": 6, "action": "Answer questions and submit", "selector": "[data-automation-id='submitButton']", "field_type": "text", "value_key": "", "notes": "Answer questions, review, submit.", "required": true }
+  ],
+  "quirks": [
+    { "id": "wd-account-required", "description": "Workday requires account creation.", "workaround": "Pre-create account.", "severity": "warning" },
+    { "id": "wd-wizard-flow", "description": "6-7 step wizard flow.", "workaround": "Navigate sequentially.", "severity": "info" },
+    { "id": "wd-resume-autoparse", "description": "Resume auto-parse may be inaccurate.", "workaround": "Verify auto-filled fields.", "severity": "warning" },
+    { "id": "wd-data-automation-selectors", "description": "Use data-automation-id for stable selectors.", "workaround": "Prefer data-automation-id over CSS classes.", "severity": "info" }
+  ],
+  "verified": true,
+  "last_verified": "2026-02-25",
+  "notes": "First Solar uses Workday (wd1 instance)."
+}

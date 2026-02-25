@@ -1,0 +1,14 @@
+{
+  "ticker": "PANW",
+  "company_name": "Palo Alto Networks, Inc.",
+  "ats_platform": "custom",
+  "careers_url": "https://www.paloaltonetworks.com/about-us/careers",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "Palo Alto Networks uses a custom ATS. Detailed playbook pending verification."
+}

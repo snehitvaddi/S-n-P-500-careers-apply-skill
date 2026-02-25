@@ -1,0 +1,14 @@
+{
+  "ticker": "MPWR",
+  "company_name": "Monolithic Power Systems, Inc.",
+  "ats_platform": "custom",
+  "careers_url": "https://www.monolithicpower.com/en/about-mps/careers",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "Monolithic Power uses a custom ATS. Detailed playbook pending verification."
+}

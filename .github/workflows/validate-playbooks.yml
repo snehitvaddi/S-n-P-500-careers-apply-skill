@@ -1,0 +1,26 @@
+name: Validate Playbooks
+
+on:
+  push:
+    paths:
+      - 'playbooks/**'
+      - 'data/**'
+  pull_request:
+    paths:
+      - 'playbooks/**'
+      - 'data/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - run: npm ci
+
+      - name: Validate playbook schemas
+        run: npm run validate

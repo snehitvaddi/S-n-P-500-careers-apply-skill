@@ -1,0 +1,273 @@
+{
+  "platform": "custom",
+  "count": 38,
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "slug": "apple",
+      "careers_url": "https://www.apple.com/careers/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "slug": "microsoft",
+      "careers_url": "https://careers.microsoft.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce, Inc.",
+      "slug": "salesforce",
+      "careers_url": "https://www.salesforce.com/company/careers/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "slug": "servicenow",
+      "careers_url": "https://www.servicenow.com/careers.html",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "INTU",
+      "name": "Intuit Inc.",
+      "slug": "intuit",
+      "careers_url": "https://www.intuit.com/careers/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "slug": "palo-alto-networks",
+      "careers_url": "https://www.paloaltonetworks.com/about-us/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "slug": "crowdstrike",
+      "careers_url": "https://www.crowdstrike.com/careers/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet, Inc.",
+      "slug": "fortinet",
+      "careers_url": "https://www.fortinet.com/corporate/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys, Inc.",
+      "slug": "synopsys",
+      "careers_url": "https://www.synopsys.com/careers.html",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "CDNS",
+      "name": "Cadence Design Systems, Inc.",
+      "slug": "cadence",
+      "careers_url": "https://www.cadence.com/en_US/home/company/careers.html",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "TYL",
+      "name": "Tyler Technologies, Inc.",
+      "slug": "tyler-technologies",
+      "careers_url": "https://www.tylertech.com/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "PTC",
+      "name": "PTC Inc.",
+      "slug": "ptc",
+      "careers_url": "https://www.ptc.com/en/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "slug": "fico",
+      "careers_url": "https://www.fico.com/en/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "ROP",
+      "name": "Roper Technologies, Inc.",
+      "slug": "roper-technologies",
+      "careers_url": "https://www.ropertech.com/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "TEAM",
+      "name": "Atlassian Corporation",
+      "slug": "atlassian",
+      "careers_url": "https://www.atlassian.com/company/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "GDDY",
+      "name": "GoDaddy Inc.",
+      "slug": "godaddy",
+      "careers_url": "https://careers.godaddy.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "slug": "amd",
+      "careers_url": "https://www.amd.com/en/corporate/careers.html",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated",
+      "slug": "texas-instruments",
+      "careers_url": "https://careers.ti.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "slug": "applied-materials",
+      "careers_url": "https://www.appliedmaterials.com/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "slug": "analog-devices",
+      "careers_url": "https://www.analog.com/en/about-adi/careers.html",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "MPWR",
+      "name": "Monolithic Power Systems, Inc.",
+      "slug": "monolithic-power",
+      "careers_url": "https://www.monolithicpower.com/en/about-mps/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "SWKS",
+      "name": "Skyworks Solutions, Inc.",
+      "slug": "skyworks",
+      "careers_url": "https://www.skyworksinc.com/en/Careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "IBM",
+      "name": "International Business Machines Corporation",
+      "slug": "ibm",
+      "careers_url": "https://www.ibm.com/careers/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture plc",
+      "slug": "accenture",
+      "careers_url": "https://www.accenture.com/us-en/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "slug": "cisco",
+      "careers_url": "https://jobs.cisco.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "CTSH",
+      "name": "Cognizant Technology Solutions Corporation",
+      "slug": "cognizant",
+      "careers_url": "https://careers.cognizant.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "EPAM",
+      "name": "EPAM Systems, Inc.",
+      "slug": "epam",
+      "careers_url": "https://www.epam.com/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "IT",
+      "name": "Gartner, Inc.",
+      "slug": "gartner",
+      "careers_url": "https://jobs.gartner.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "CDW",
+      "name": "CDW Corporation",
+      "slug": "cdw",
+      "careers_url": "https://www.cdw.com/content/cdw/en/careers.html",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc.",
+      "slug": "dell",
+      "careers_url": "https://jobs.dell.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise Company",
+      "slug": "hpe",
+      "careers_url": "https://careers.hpe.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "APH",
+      "name": "Amphenol Corporation",
+      "slug": "amphenol",
+      "careers_url": "https://www.amphenol.com/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "TRMB",
+      "name": "Trimble Inc.",
+      "slug": "trimble",
+      "careers_url": "https://www.trimble.com/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "NTAP",
+      "name": "NetApp, Inc.",
+      "slug": "netapp",
+      "careers_url": "https://www.netapp.com/company/careers/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "JNPR",
+      "name": "Juniper Networks, Inc.",
+      "slug": "juniper-networks",
+      "careers_url": "https://www.juniper.net/us/en/careers.html",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "AKAM",
+      "name": "Akamai Technologies, Inc.",
+      "slug": "akamai",
+      "careers_url": "https://www.akamai.com/careers",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "VRSN",
+      "name": "VeriSign, Inc.",
+      "slug": "verisign",
+      "careers_url": "https://www.verisign.com/en_US/careers/index.xhtml",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital Inc.",
+      "slug": "gen-digital",
+      "careers_url": "https://www.gendigital.com/careers",
+      "api_endpoint": null
+    }
+  ],
+  "last_updated": "2026-02-25"
+}

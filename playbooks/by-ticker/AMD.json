@@ -1,0 +1,14 @@
+{
+  "ticker": "AMD",
+  "company_name": "Advanced Micro Devices, Inc.",
+  "ats_platform": "custom",
+  "careers_url": "https://www.amd.com/en/corporate/careers.html",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "AMD uses a custom ATS. Detailed playbook pending verification."
+}

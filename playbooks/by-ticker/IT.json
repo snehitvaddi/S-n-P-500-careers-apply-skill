@@ -1,0 +1,14 @@
+{
+  "ticker": "IT",
+  "company_name": "Gartner, Inc.",
+  "ats_platform": "custom",
+  "careers_url": "https://jobs.gartner.com/",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "Gartner uses a custom ATS. Detailed playbook pending verification."
+}

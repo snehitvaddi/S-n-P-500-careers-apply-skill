@@ -1,0 +1,14 @@
+{
+  "ticker": "CDW",
+  "company_name": "CDW Corporation",
+  "ats_platform": "custom",
+  "careers_url": "https://www.cdw.com/content/cdw/en/careers.html",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "CDW uses a custom ATS. Detailed playbook pending verification."
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FTNT",
+  "company_name": "Fortinet, Inc.",
+  "ats_platform": "custom",
+  "careers_url": "https://www.fortinet.com/corporate/careers",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "Fortinet uses a custom ATS. Detailed playbook pending verification."
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "JNPR",
+  "company_name": "Juniper Networks, Inc.",
+  "ats_platform": "custom",
+  "careers_url": "https://www.juniper.net/us/en/careers.html",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "Juniper Networks uses a custom ATS. Detailed playbook pending verification."
+}

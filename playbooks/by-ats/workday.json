@@ -1,0 +1,161 @@
+{
+  "platform": "workday",
+  "count": 22,
+  "companies": [
+    {
+      "ticker": "ADBE",
+      "name": "Adobe Inc.",
+      "slug": "adobe",
+      "careers_url": "https://adobe.wd5.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk, Inc.",
+      "slug": "autodesk",
+      "careers_url": "https://autodesk.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "ANSS",
+      "name": "ANSYS, Inc.",
+      "slug": "ansys",
+      "careers_url": "https://ansys.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "slug": "nvidia",
+      "careers_url": "https://nvidia.wd5.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "slug": "broadcom",
+      "careers_url": "https://broadcom.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm Incorporated",
+      "slug": "qualcomm",
+      "careers_url": "https://qualcomm.wd5.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research Corporation",
+      "slug": "lam-research",
+      "careers_url": "https://lamresearch.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "slug": "micron",
+      "careers_url": "https://micron.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "slug": "kla",
+      "careers_url": "https://kla.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology, Inc.",
+      "slug": "marvell",
+      "careers_url": "https://marvell.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP Semiconductors N.V.",
+      "slug": "nxp",
+      "careers_url": "https://nxp.wd3.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "ON",
+      "name": "onsemi",
+      "slug": "onsemi",
+      "careers_url": "https://onsemi.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar, Inc.",
+      "slug": "first-solar",
+      "careers_url": "https://firstsolar.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "slug": "hp",
+      "careers_url": "https://hp.wd5.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "TEL",
+      "name": "TE Connectivity Ltd.",
+      "slug": "te-connectivity",
+      "careers_url": "https://te.wd3.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "MSI",
+      "name": "Motorola Solutions, Inc.",
+      "slug": "motorola-solutions",
+      "careers_url": "https://motorolasolutions.wd5.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning Incorporated",
+      "slug": "corning",
+      "careers_url": "https://corning.wd5.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies, Inc.",
+      "slug": "keysight",
+      "careers_url": "https://keysight.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "ZBRA",
+      "name": "Zebra Technologies Corporation",
+      "slug": "zebra",
+      "careers_url": "https://zebra.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne, Inc.",
+      "slug": "teradyne",
+      "careers_url": "https://teradyne.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology Holdings plc",
+      "slug": "seagate",
+      "careers_url": "https://seagate.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital Corporation",
+      "slug": "western-digital",
+      "careers_url": "https://westerndigital.wd1.myworkdayjobs.com/",
+      "api_endpoint": null
+    }
+  ],
+  "last_updated": "2026-02-25"
+}

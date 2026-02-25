@@ -1,0 +1,14 @@
+{
+  "ticker": "VRSN",
+  "company_name": "VeriSign, Inc.",
+  "ats_platform": "custom",
+  "careers_url": "https://www.verisign.com/en_US/careers/index.xhtml",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "VeriSign uses a custom ATS. Detailed playbook pending verification."
+}

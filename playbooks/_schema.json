@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Company Playbook",
+  "description": "Navigation playbook for an S&P 500 IT company's career page",
+  "type": "object",
+  "required": ["ticker", "company_name", "ats_platform", "careers_url", "verified"],
+  "properties": {
+    "ticker": {
+      "type": "string",
+      "description": "Stock ticker symbol (e.g., DDOG, NVDA)"
+    },
+    "company_name": {
+      "type": "string",
+      "description": "Full company name"
+    },
+    "ats_platform": {
+      "type": "string",
+      "enum": ["greenhouse", "lever", "workday", "ashby", "smartrecruiters", "icims", "taleo", "successfactors", "custom"],
+      "description": "ATS platform identifier"
+    },
+    "careers_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Primary careers page URL"
+    },
+    "application_url": {
+      "type": "string",
+      "description": "Direct application URL template (may contain {job_id} placeholder)"
+    },
+    "api_endpoint": {
+      "type": "string",
+      "description": "API endpoint for job listings (if available)"
+    },
+    "search_filters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "type"],
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string", "enum": ["dropdown", "text", "checkbox", "url_param"] },
+          "selector": { "type": "string" },
+          "url_param": { "type": "string" },
+          "options": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "application_flow": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["step", "action"],
+        "properties": {
+          "step": { "type": "integer" },
+          "action": { "type": "string" },
+          "selector": { "type": "string" },
+          "field_type": {
+            "type": "string",
+            "enum": ["text", "email", "tel", "url", "textarea", "select", "combobox", "radio", "checkbox", "file", "date", "autocomplete"]
+          },
+          "value_key": { "type": "string" },
+          "notes": { "type": "string" },
+          "required": { "type": "boolean" }
+        }
+      }
+    },
+    "quirks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "description", "workaround", "severity"],
+        "properties": {
+          "id": { "type": "string" },
+          "description": { "type": "string" },
+          "workaround": { "type": "string" },
+          "severity": { "type": "string", "enum": ["info", "warning", "blocker"] }
+        }
+      }
+    },
+    "verified": { "type": "boolean" },
+    "last_verified": { "type": "string" },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,14 @@
+{
+  "ticker": "FICO",
+  "company_name": "Fair Isaac Corporation",
+  "ats_platform": "custom",
+  "careers_url": "https://www.fico.com/en/careers",
+  "application_url": "",
+  "api_endpoint": null,
+  "search_filters": [],
+  "application_flow": [],
+  "quirks": [],
+  "verified": false,
+  "last_verified": "2026-02-25",
+  "notes": "FICO uses a custom ATS. Detailed playbook pending verification."
+}

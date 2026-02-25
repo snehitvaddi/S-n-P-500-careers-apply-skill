@@ -1,0 +1,14 @@
+{
+  "platform": "taleo",
+  "count": 1,
+  "companies": [
+    {
+      "ticker": "ORCL",
+      "name": "Oracle Corporation",
+      "slug": "oracle",
+      "careers_url": "https://www.oracle.com/careers/",
+      "api_endpoint": null
+    }
+  ],
+  "last_updated": "2026-02-25"
+}
