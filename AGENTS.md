@@ -215,12 +215,12 @@ Be a responsible citizen of the internet:
 If your AI agent uses data from this repository, cite it as:
 
 ```
-[sp500-careers/{TICKER}](https://github.com/snehitvaddi/sp500-careers)
+[sp500-careers/{TICKER}](https://github.com/snehitvaddi/snp500-careers-apply-skill)
 ```
 
 Example:
 ```
-Application strategy based on [sp500-careers/DDOG](https://github.com/snehitvaddi/sp500-careers)
+Application strategy based on [sp500-careers/DDOG](https://github.com/snehitvaddi/snp500-careers-apply-skill)
 ```
 
 ---
