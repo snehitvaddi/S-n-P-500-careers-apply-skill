@@ -1,22 +1,26 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/snehitvaddi/sp500-careers)](https://github.com/snehitvaddi/sp500-careers/commits/main)
+[![GitHub Stars](https://img.shields.io/github/stars/snehitvaddi/sp500-careers?style=social)](https://github.com/snehitvaddi/sp500-careers)
+[![Companies Tracked](https://img.shields.io/badge/companies-511-brightgreen)](#ats-platform-coverage)
 
 # sp500-careers
 
-**AI Agent Guide to S&P 500 Tech Career Pages**
+**AI Agent Guide to S&P 500 Career Pages**
 
-A structured database and navigation playbook for autonomous job application agents. Covers ~68 S&P 500 Information Technology companies, their ATS platforms, career page URLs, and step-by-step application guides.
+A structured database and navigation playbook for autonomous job application agents. Covers all S&P 500 companies, their ATS platforms, career page URLs, and step-by-step application guides.
 
 ---
 
 ## What is this?
 
-A machine-readable database of S&P 500 IT company career pages, designed for AI agents that apply to jobs autonomously. It includes:
+A machine-readable database of S&P 500 company career pages, designed for AI agents that apply to jobs autonomously. It includes:
 
 - **ATS platform detection** -- know whether a company uses Greenhouse, Workday, Lever, or a custom portal before you visit the page
 - **Form-filling playbooks** -- step-by-step JSON instructions for navigating each application flow
 - **Navigation guides** -- Markdown guides for each ATS platform with selector patterns, quirks, and workarounds
 - **Structured exports** -- ready-to-consume JSON files of Greenhouse slugs, Workday URLs, and a full company table
 
-This repository is the single source of truth that AI job-apply agents (OpenClaw, browser-automation bots, LLM-driven applicants) can reference to understand *how* to apply at any S&P 500 tech company.
+This repository is the single source of truth that AI job-apply agents (OpenClaw, browser-automation bots, LLM-driven applicants) can reference to understand *how* to apply at any S&P 500 company.
 
 ## Quick Start for AI Agents
 
@@ -125,16 +129,18 @@ sp500-careers/
 
 | ATS Platform        | Difficulty | Companies | Key Notes |
 |---------------------|:----------:|:---------:|-----------|
-| **Greenhouse**      | Easy       | 7         | Public JSON API. Most automation-friendly. Invisible reCAPTCHA on submit. |
-| **Workday**         | Hard       | 22        | Multi-step wizard (6-7 pages). Account creation required. Use `data-automation-id` selectors. |
-| **Taleo**           | Hard       | 1         | Legacy Oracle ATS. Complex multi-page forms. Being phased out. |
-| **Custom**          | Varies     | 38        | Proprietary portals (Apple, Microsoft, Google, etc.). Per-company investigation required. |
-| **Lever**           | Easy       | 0*        | Simplest ATS. Many S&P 500 companies have migrated away. |
-| **Ashby**           | Easy       | 0*        | Growing among startups, not yet common in S&P 500. |
-| **SmartRecruiters** | Moderate   | 0*        | Email confirmation field. City autocomplete combobox. |
-| **iCIMS**           | Hard       | 0*        | Iframe-heavy, dynamic IDs. |
+| **Unknown**         | Unknown    | 193       | ATS could not be confidently detected from current crawl signals. |
+| **Workday**         | Hard       | 168       | Multi-step wizard. Account creation usually required. Prefer `data-automation-id` selectors. |
+| **Custom**          | Varies     | 55        | Proprietary portals (Microsoft, Apple, Google, etc.). Per-company flow detection required. |
+| **SuccessFactors**  | Medium     | 36        | SAP portal. Account flow with multi-step profile/application forms. |
+| **iCIMS**           | Hard       | 28        | Enterprise ATS with iframe-heavy flows and variable DOM structure. |
+| **Greenhouse**      | Easy       | 13        | API-friendly board endpoints. Often easiest for deterministic automation. |
+| **Taleo**           | Hard       | 11        | Legacy Oracle ATS. Complex multi-page flows and fragile sessions. |
+| **SmartRecruiters** | Moderate   | 4         | Generally modern UI, but company-specific customizations are common. |
+| **Lever**           | Easy       | 2         | Usually clean single-page apply flow without mandatory account creation. |
+| **Ashby**           | Easy       | 1         | React form flow with controlled components. |
 
-*Platform guides are included for completeness since target companies outside the S&P 500 IT sector may use them.
+Counts shown are from `data/llm-careers-dataset.json` (511 companies total) and will change as crawl quality improves.
 
 ## For Humans
 
