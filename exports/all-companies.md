@@ -1,6 +1,6 @@
 # S&P 500 IT Sector — Career Pages
 
-> Generated: 2026-07-15
+> Generated: 2026-08-01
 > Total: 68 companies
 
 | Ticker | Company | ATS | Careers URL | H1B | Status |
