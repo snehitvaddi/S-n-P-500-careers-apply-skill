@@ -9298,5 +9298,784 @@
     "details": "Redirected to https://www.gendigital.com/us/en/life-gen/",
     "old_value": "https://www.gendigital.com/careers",
     "new_value": "https://www.gendigital.com/us/en/life-gen/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "AAPL",
+    "details": "Apple Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "MSFT",
+    "details": "Microsoft Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "ORCL",
+    "details": "Oracle Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "CRM",
+    "details": "Salesforce, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "ADBE",
+    "details": "Adobe Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "NOW",
+    "details": "ServiceNow, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "INTU",
+    "details": "Intuit Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "PANW",
+    "details": "Palo Alto Networks, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "CRWD",
+    "details": "CrowdStrike Holdings, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "FTNT",
+    "details": "Fortinet, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "ADSK",
+    "details": "Autodesk, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "SNPS",
+    "details": "Synopsys, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "CDNS",
+    "details": "Cadence Design Systems, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "ANSS",
+    "details": "ANSYS, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "TYL",
+    "details": "Tyler Technologies, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "PTC",
+    "details": "PTC Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "FICO",
+    "details": "Fair Isaac Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "ROP",
+    "details": "Roper Technologies, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "DDOG",
+    "details": "Datadog, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "PLTR",
+    "details": "Palantir Technologies Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "ZS",
+    "details": "Zscaler, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "SNOW",
+    "details": "Snowflake Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "TEAM",
+    "details": "Atlassian Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "MDB",
+    "details": "MongoDB, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "HUBS",
+    "details": "HubSpot, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "GDDY",
+    "details": "GoDaddy Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "NVDA",
+    "details": "NVIDIA Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "AVGO",
+    "details": "Broadcom Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "AMD",
+    "details": "Advanced Micro Devices, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "TXN",
+    "details": "Texas Instruments Incorporated removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "QCOM",
+    "details": "Qualcomm Incorporated removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "AMAT",
+    "details": "Applied Materials, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "ADI",
+    "details": "Analog Devices, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "LRCX",
+    "details": "Lam Research Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "MU",
+    "details": "Micron Technology, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "KLAC",
+    "details": "KLA Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "MRVL",
+    "details": "Marvell Technology, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "NXPI",
+    "details": "NXP Semiconductors N.V. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "MPWR",
+    "details": "Monolithic Power Systems, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "ON",
+    "details": "onsemi removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "SWKS",
+    "details": "Skyworks Solutions, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "FSLR",
+    "details": "First Solar, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "IBM",
+    "details": "International Business Machines Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "ACN",
+    "details": "Accenture plc removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "CSCO",
+    "details": "Cisco Systems, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "CTSH",
+    "details": "Cognizant Technology Solutions Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "EPAM",
+    "details": "EPAM Systems, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "IT",
+    "details": "Gartner, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "CDW",
+    "details": "CDW Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "DELL",
+    "details": "Dell Technologies Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "HPQ",
+    "details": "HP Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "HPE",
+    "details": "Hewlett Packard Enterprise Company removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "APH",
+    "details": "Amphenol Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "TEL",
+    "details": "TE Connectivity Ltd. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "MSI",
+    "details": "Motorola Solutions, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "GLW",
+    "details": "Corning Incorporated removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "KEYS",
+    "details": "Keysight Technologies, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "ZBRA",
+    "details": "Zebra Technologies Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "TRMB",
+    "details": "Trimble Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "TER",
+    "details": "Teradyne, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "STX",
+    "details": "Seagate Technology Holdings plc removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "WDC",
+    "details": "Western Digital Corporation removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "NTAP",
+    "details": "NetApp, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "JNPR",
+    "details": "Juniper Networks, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "FFIV",
+    "details": "F5, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "AKAM",
+    "details": "Akamai Technologies, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "VRSN",
+    "details": "VeriSign, Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "company_removed",
+    "ticker": "GEN",
+    "details": "Gen Digital Inc. removed from S&P 500 IT sector"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "AAPL",
+    "details": "Redirected to https://www.apple.com/careers/us/",
+    "old_value": "https://www.apple.com/careers/",
+    "new_value": "https://www.apple.com/careers/us/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "MSFT",
+    "details": "Redirected to https://careers.microsoft.com/v2/global/en/home.html",
+    "old_value": "https://careers.microsoft.com/",
+    "new_value": "https://careers.microsoft.com/v2/global/en/home.html"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "ADBE",
+    "details": "HTTP 406",
+    "old_value": "https://adobe.wd5.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "NOW",
+    "details": "The operation was aborted due to timeout",
+    "old_value": "https://www.servicenow.com/careers.html"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "PANW",
+    "details": "HTTP 404",
+    "old_value": "https://www.paloaltonetworks.com/about-us/careers"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "CRWD",
+    "details": "Redirected to https://www.crowdstrike.com/en-us/careers/",
+    "old_value": "https://www.crowdstrike.com/careers/",
+    "new_value": "https://www.crowdstrike.com/en-us/careers/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "ADSK",
+    "details": "HTTP 406",
+    "old_value": "https://autodesk.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "SNPS",
+    "details": "Redirected to https://careers.synopsys.com/",
+    "old_value": "https://www.synopsys.com/careers.html",
+    "new_value": "https://careers.synopsys.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "CDNS",
+    "details": "HTTP 403",
+    "old_value": "https://www.cadence.com/en_US/home/company/careers.html"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "ANSS",
+    "details": "HTTP 406",
+    "old_value": "https://ansys.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "PTC",
+    "details": "HTTP 403",
+    "old_value": "https://www.ptc.com/en/careers"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "ROP",
+    "details": "HTTP 404",
+    "old_value": "https://www.ropertech.com/careers"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "SNOW",
+    "details": "Redirected to https://careers.snowflake.com/us/en",
+    "old_value": "https://careers.snowflake.com/",
+    "new_value": "https://careers.snowflake.com/us/en"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "GDDY",
+    "details": "Redirected to https://careers.godaddy/",
+    "old_value": "https://careers.godaddy.com/",
+    "new_value": "https://careers.godaddy/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "NVDA",
+    "details": "HTTP 406",
+    "old_value": "https://nvidia.wd5.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "AVGO",
+    "details": "HTTP 406",
+    "old_value": "https://broadcom.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "TXN",
+    "details": "Redirected to https://careers.ti.com/en/sites/CX",
+    "old_value": "https://careers.ti.com/",
+    "new_value": "https://careers.ti.com/en/sites/CX"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "QCOM",
+    "details": "HTTP 406",
+    "old_value": "https://qualcomm.wd5.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "AMAT",
+    "details": "HTTP 403",
+    "old_value": "https://www.appliedmaterials.com/careers"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "ADI",
+    "details": "The operation was aborted due to timeout",
+    "old_value": "https://www.analog.com/en/about-adi/careers.html"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "LRCX",
+    "details": "HTTP 406",
+    "old_value": "https://lamresearch.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "MU",
+    "details": "HTTP 406",
+    "old_value": "https://micron.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "KLAC",
+    "details": "HTTP 406",
+    "old_value": "https://kla.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "MRVL",
+    "details": "HTTP 406",
+    "old_value": "https://marvell.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "NXPI",
+    "details": "HTTP 406",
+    "old_value": "https://nxp.wd3.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "ON",
+    "details": "HTTP 406",
+    "old_value": "https://onsemi.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "FSLR",
+    "details": "HTTP 406",
+    "old_value": "https://firstsolar.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "IBM",
+    "details": "Redirected to https://www.ibm.com/careers",
+    "old_value": "https://www.ibm.com/careers/",
+    "new_value": "https://www.ibm.com/careers"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "CSCO",
+    "details": "Redirected to https://careers.cisco.com/global/en",
+    "old_value": "https://jobs.cisco.com/",
+    "new_value": "https://careers.cisco.com/global/en"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "CTSH",
+    "details": "HTTP 403",
+    "old_value": "https://careers.cognizant.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "EPAM",
+    "details": "HTTP 403",
+    "old_value": "https://www.epam.com/careers"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "IT",
+    "details": "HTTP 403",
+    "old_value": "https://jobs.gartner.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "CDW",
+    "details": "HTTP 429",
+    "old_value": "https://www.cdw.com/content/cdw/en/careers.html"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "DELL",
+    "details": "Redirected to https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/",
+    "old_value": "https://jobs.dell.com/",
+    "new_value": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "HPQ",
+    "details": "HTTP 406",
+    "old_value": "https://hp.wd5.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "HPE",
+    "details": "Redirected to https://careers.hpe.com/us/en",
+    "old_value": "https://careers.hpe.com/",
+    "new_value": "https://careers.hpe.com/us/en"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "APH",
+    "details": "HTTP 403",
+    "old_value": "https://www.amphenol.com/careers"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "TEL",
+    "details": "HTTP 406",
+    "old_value": "https://te.wd3.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "MSI",
+    "details": "HTTP 406",
+    "old_value": "https://motorolasolutions.wd5.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "GLW",
+    "details": "HTTP 406",
+    "old_value": "https://corning.wd5.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "KEYS",
+    "details": "HTTP 406",
+    "old_value": "https://keysight.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "ZBRA",
+    "details": "HTTP 406",
+    "old_value": "https://zebra.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "TRMB",
+    "details": "Redirected to https://www.trimble.com/en/careers",
+    "old_value": "https://www.trimble.com/careers",
+    "new_value": "https://www.trimble.com/en/careers"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "TER",
+    "details": "HTTP 406",
+    "old_value": "https://teradyne.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "STX",
+    "details": "HTTP 406",
+    "old_value": "https://seagate.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "WDC",
+    "details": "HTTP 406",
+    "old_value": "https://westerndigital.wd1.myworkdayjobs.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "NTAP",
+    "details": "HTTP 403",
+    "old_value": "https://www.netapp.com/company/careers/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "JNPR",
+    "details": "HTTP 404",
+    "old_value": "https://www.juniper.net/us/en/careers.html"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_broken",
+    "ticker": "AKAM",
+    "details": "HTTP 403",
+    "old_value": "https://www.akamai.com/careers"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "VRSN",
+    "details": "Redirected to https://www.verisign.com/",
+    "old_value": "https://www.verisign.com/en_US/careers/index.xhtml",
+    "new_value": "https://www.verisign.com/"
+  },
+  {
+    "date": "2026-09-01",
+    "type": "url_changed",
+    "ticker": "GEN",
+    "details": "Redirected to https://www.gendigital.com/us/en/life-gen/",
+    "old_value": "https://www.gendigital.com/careers",
+    "new_value": "https://www.gendigital.com/us/en/life-gen/"
   }
 ]
